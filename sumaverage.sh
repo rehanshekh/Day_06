@@ -8,3 +8,5 @@ sum=$(( $a + $b + $c + $d + $e ))
 echo $sum | awk  '{ print $sum/5 }'
 
 
+a=$((RANDOM%100))
+echo $a;
