@@ -1,4 +1,5 @@
-#!/bin/bash 
+#!/bin/bash
+#!/bin/bash
 read -p "Enter a single digit number : " a
 if [ $a -lt 10 ]
 then
